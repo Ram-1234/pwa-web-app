@@ -1,0 +1,97 @@
+.container_box {
+  width: 40%;
+  height: auto;
+  border: 2px solid lightgray;
+  border-radius: 5px;
+  padding: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+  color: black;
+  margin: auto;
+  text-align: center;
+  z-index: 200;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: sans-serif;
+  line-height: 1pc;
+  margin: 20px 0;
+}
+
+.subtitle {
+  max-width: 800px;
+  font-size: 12px;
+  font-weight: 5;
+  font-family: sans-serif;
+  line-height: 1pc;
+  word-wrap: break-word;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+.backgroundcss {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.7;
+}
+
+.icon_style {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+@media (width>792px ) {
+  .container{
+    width: 60%;
+  }
+  }
+
+  @media (width>867px ) {
+    .container{
+      width: 55%;
+    }
+    }
+
+    @media (width>992px ) {
+      .container{
+        width: 50%;
+      }
+      }
+
+      @media (width>1200px ) {
+        .container{
+          width: 45%;
+        }
+        }
+
+  @media (width<792px ) {
+    .container{
+      width: 60%;
+    }
+    }
+
+    @media (width<600px ) {
+      .container{
+        width: 70%;
+      }
+      }
+
+@media (width<500px) {
+.container{
+  width: 80%;
+  padding:0;
+  margin:0;
+}
+}

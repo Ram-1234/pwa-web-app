@@ -1,0 +1,132 @@
+.required {
+  display: inline-block;
+  margin-right: 4px;
+  color: #f5222d;
+  font-size: 14px;
+  font-family: SimSun, sans-serif;
+  line-height: 1;
+  content: "*";
+}
+
+form {
+  /* border:1px solid black; */
+  padding: 20px;
+  width: 100%;
+  min-width: 200px;
+  display: block;
+  margin: auto;
+  background: #fff;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.input_box {
+  padding: 10px 0;
+  /* border:1px solid black; */
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+input {
+  width: 70%;
+  border: 1px solid lightgray;
+  padding: 5px 0;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+label {
+  width: 25%;
+  /* border: 1px solid red; */
+}
+
+.form_button {
+  padding: 10px 0;
+  text-align: right;
+}
+
+.form_button > button {
+  outline: none;
+  border: none;
+  margin: 0 10px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media (width>798px) {
+  .input_box {
+    padding: 3px 0;
+    margin: 10px 0;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+  }
+  input {
+    width: 70%;
+    /* border: 1px solid lightgray; */
+    /* padding:5px 0; */
+    border-radius: 5px;
+    padding-left: 10px;
+  }
+  label {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid red; */
+  }
+}
+
+@media (width<798px) {
+  .input_box {
+    padding: 5px 0;
+    margin: 5px 0;
+  }
+  input {
+    width: 75%;
+    border: 1px solid lightgray;
+    /* padding:5px 0; */
+    border-radius: 5px;
+    padding-left: 10px;
+  }
+  label {
+    width: 30%;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (width<667px) {
+  .input_box {
+    padding: 3px 0;
+    margin: 5px 0;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+  }
+  input {
+    width: 60%;
+    border: 1px solid lightgray;
+    /* padding:5px 0; */
+    border-radius: 5px;
+    padding-left: 10px;
+  }
+  label {
+    width: 30%;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (width<500px) {
+  .input_box {
+    padding: 2px 0;
+    margin: 5px 0;
+  }
+  input {
+    border: 1px solid lightgray;
+    /* padding:5px 0; */
+    border-radius: 5px;
+    padding-left: 10px;
+  }
+}

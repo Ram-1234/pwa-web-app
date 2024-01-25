@@ -1,0 +1,53 @@
+.dialog_container {
+  min-width: 25%;
+  background: #fff;
+  position: fixed;
+  top: 50%;
+  left: 38%;
+  border: 2px solid #f0f0f0;
+  border-radius: 5px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.dialog_title {
+  font-size: 12px;
+  font-weight: 500;
+  font-family: sans-serif;
+  text-align: start;
+  line-height: 1.5;
+  word-wrap: break-word;
+  word-spacing: 1px;
+  margin-bottom: 20px;
+  color: red;
+  text-align: center;
+}
+
+.dialog_buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cancle_button, .delete_button {
+  background: #f0f0f0;
+  padding: 0 0.5rem;
+  border: 2px solid #f0f0f0;
+  border-radius: 0.2rem;
+  outline: none;
+  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: 400;
+  border-radius: 0.3rem;
+}
+
+.delete_button {
+  margin-left: 10px;
+}
+
+@media (width<500px) {
+  .dialog_container {
+    position: fixed;
+    left: 25%;
+    top: 50%;
+  }
+}
